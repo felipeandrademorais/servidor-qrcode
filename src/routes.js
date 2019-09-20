@@ -1,9 +1,9 @@
-const { Router } = require("express");
+const express = require("express");
 const UrlController = require("./controller/UrlController");
 
-const routes = new Router();
+const routes = express.Router();
 
 routes.post("/url", UrlController.store);
 routes.get("/:id", UrlController.show);
 
-export default routes;
+module.exports = routes;

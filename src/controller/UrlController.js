@@ -16,4 +16,4 @@ class UrlController {
   }
 }
 
-export default new UrlController();
+module.exports = new UrlController();

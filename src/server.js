@@ -1,4 +1,4 @@
-import app from "./app";
+const app = require("./app");
 const mongoose = require("mongoose");
 
 mongoose.connect(
